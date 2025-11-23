@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
-
+#web scraping using beautifulsoup
 url = "https://www.geeksforgeeks.org/python/python-regex-cheat-sheet/"
 response = requests.get(url)
 html_content = response.text
