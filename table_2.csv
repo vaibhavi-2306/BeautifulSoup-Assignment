@@ -1,0 +1,9 @@
+,0,1
+0,Expressions,Explanations
+1,+,Matches the expression to its left 1 or more times.
+2,*,Matches the expression to its left 0 or more times.
+3,?,Matches the expression to its left 0 or 1 times
+4,{p},"Matches the expression to its left p times, and not less."
+5,"{p, q}","Matches the expression to its left p to q times, and not less."
+6,"{p, }",Matches the expression to its left p or more times.
+7,"{ , q}",Matches the expression to its left up to q times

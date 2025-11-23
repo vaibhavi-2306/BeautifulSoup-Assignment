@@ -1,0 +1,7 @@
+,0,1
+0,Expressions,Explanations
+1,( ),Matches the expression inside the parentheses and groups it which we can capture as required
+2,(?#...),Read a comment
+3,(?PAB),"Matches the expression AB, which can be retrieved with the group name."
+4,(?:A),"Matches the expression as represented by A, but cannot be retrieved afterwards."
+5,(?P=group),Matches the expression matched by an earlier group named “group”

@@ -1,0 +1,9 @@
+,0,1
+0,Expression,Explanation
+1,a,Matches ASCII only
+2,i,Ignore case
+3,L,Locale character classes
+4,m,^ and $ match start and end of the line (Multi-line)
+5,s,Matches everything including newline as well
+6,u,Matches Unicode character classes
+7,x,Allow spaces and comments (Verbose)

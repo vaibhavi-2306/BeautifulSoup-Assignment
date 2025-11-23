@@ -1,0 +1,8 @@
+,0,1
+0,Expression,Explanations
+1,^,"Matches the expression to its right, at the start of a string before it experiences a line break"
+2,$,"Matches the expression to its left, at the end of a string before it experiences a line break"
+3,.,Matches any character except newline
+4,a,Matches exactly one character a
+5,xy,Matches the string xy
+6,a|b,"Matches expression a or b. If a is matched first, b is left untried."

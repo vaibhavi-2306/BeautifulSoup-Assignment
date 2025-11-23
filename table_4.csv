@@ -1,0 +1,11 @@
+,0,1
+0,Expressions,Explanations
+1,[abc],"Matches either a, b, or c. It does not match abc."
+2,[a-z],Matches any alphabet from a to z.
+3,[A-Z],Matches any alphabets in capital from A to Z
+4,[a\-p],"Matches a, -, or p. It matches - because \ escapes it."
+5,[-z],Matches - or z
+6,[a-z0-9],Matches characters from a to z or from 0 to 9.
+7,[(+*)],"Special characters become literal inside a set, so this matches (, +, *, or )"
+8,[^ab5],"Adding ^ excludes any character in the set. Here, it matches characters that are not a, b, or 5."
+9,\[a\],Matches [a] because both parentheses [ ] are escaped

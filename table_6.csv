@@ -1,0 +1,7 @@
+,0,1
+0,Expression,Explanation
+1,A(?=B),This matches the expression A only if it is followed by B. (Positive look ahead assertion)
+2,A(?!B),This matches the expression A only if it is not followed by B. (Negative look ahead assertion)
+3,(?<=B)A,This matches the expression A only if B is immediate to its left.  (Positive look behind assertion)
+4,(?<!B)A,This matches the expression A only if B is not immediately to its left. (Negative look behind assertion)
+5,(?()|),If else conditional

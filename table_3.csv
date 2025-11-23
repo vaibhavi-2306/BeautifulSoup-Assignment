@@ -1,0 +1,14 @@
+,0,1
+0,Expressions,Explanations
+1,\w,"Matches alphanumeric characters, that is a-z, A-Z, 0-9, and underscore(_)"
+2,\W,"Matches non-alphanumeric characters, that is except a-z, A-Z, 0-9 and _"
+3,\d,"Matches digits, from 0-9."
+4,\D,Matches any non-digits.
+5,\s,"Matches whitespace characters, which also include the \t, \n, \r, and space characters."
+6,\S,Matches non-whitespace characters.
+7,\A,Matches the expression to its right at the absolute start of a string whether in single or multi-line mode.
+8,\Z,Matches the expression to its left at the absolute end of a string whether in single or multi-line mode.
+9,\n,Matches a newline character
+10,\t,Matches tab character
+11,\b,Matches the word boundary (or empty string) at the start and end of a word.
+12,\B,"Matches where \b does not, that is, non-word boundary"
